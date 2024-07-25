@@ -1,5 +1,3 @@
 # Documentation
 
-The "Electronic Old Persian Library" is inspired from "Electronic Babyloninian Literature" (eBL) project:
-
-https://github.com/Melanee-Melanee/Electronic-Babylonian-Library-eBL-documentation
+https://medium.com/@melanee-melanee/matching-and-translating-persian-old-cuneiform-inscriptions-by-ai-89cc431ba0be
