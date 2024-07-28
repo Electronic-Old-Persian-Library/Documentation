@@ -8,8 +8,6 @@
 <div align="center">
 
   [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
-  [![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/Electronic-Old-Persian-Library/Old-Persian-Cuneiform-OCR/issues)
-  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/Electronic-Old-Persian-Library/Old-Persian-Cuneiform-OCR/pulls)
   [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
@@ -56,6 +54,37 @@ The “tessearct_old_persian” model is a pre-trained model and developed by S.
 The “yolo_cnn_old_persian” model is not completed yet.
 
 ## Results and discussion
+### Input:
+![alt text](https://miro.medium.com/v2/resize:fit:786/format:webp/1*ORJ4H_KcJnDjO90psa8qrg.png)
+
+### Output:
+Zittiy ; iaryvuS ; xrSayZiy;
+
+mnc;aurmzia;upstam; rlauv;
+
+hia ; ViZiriS ; rgiriS ; uta;
+
+im am ; i h yaum ; au lm z i a ;
+
+pitTucs;hca;hinaya; hca;
+
+QuSiyala ; hca;iruga;ariy;
+
+imam ;ihyaum;ma; ajMiya; ait;
+
+aim ;yanm;jDiyaMiy;
+
+aitmiy ; iiaTuv
+
+In the next step. I translate that Old Persian transcription to modern languages by Chat-GPT:
+### Translate to Modern Persian:
+> این منم داریوش شاهنشاه؛ به لطف اهورامزدا، من این را بنا کردم؛ من این امپراتوری را بنیان نهادم و آن را نیرومند ساختم. باشد که اهورامزدا من و پادشاهی مرا محافظت کند؛ باشد که برای همیشه پایدار بماند؛ و باشد که از دروغ در امان باشد؛ این است آنچه من انجام دادم؛
+این است آنچه من می‌گویم.
+
+
+### Translate to Modern English:
+>This is me, Dariush king; By the grace of Ahura Mazda, I have built this; I founded this empire and made it strong. May Ahuramazda protect me and my kingdom; may it last forever; and it would be safe from lies; that is what I did;
+That is what I am saying.
 
 ## Future work
 - Developing pre-processing for the raw image dataset
@@ -67,15 +96,6 @@ The “yolo_cnn_old_persian” model is not completed yet.
 ## Conclusion
 Acquired results of the evaluation indicate that my models will be able to properly translate Old Persian cuneiform. The acquired results are promising that they are able to make and improve NLP in this area.
 
-## References
-<a id="1">[1]</a> 
-Mostofi, Fahimeh. (2014). Intelligent Recognition of Ancient Persian Cuneiform Characters. 10.5220/0005035401190123. 
-<br>
-<a id="2">[2]</a> 
-Mousavi, Seyed & Lyashenko, Vyacheslav. (2017). Extracting old persian cuneiform font out of noisy images (handwritten or inscription). 241-246. 10.1109/IranianMVIP.2017.8342358. 
-<br>
-<a id="3">[3]</a> 
-Gutherz, Gai & Gordin, Shai & Sáenz, Luis & Levy, Omer & Berant, Jonathan. (2023). Translating Akkadian to English with neural machine translation. PNAS Nexus. 2. 10.1093/pnasnexus/pgad096. 
 
 ## 🚀 Deployment
 ```bash
@@ -89,6 +109,15 @@ img = Image.open(img_path)
 text = pytesseract.image_to_string(img, lang=’myLang’)
 print(text)
 ```
+## References
+<a id="1">[1]</a> 
+Mostofi, Fahimeh. (2014). Intelligent Recognition of Ancient Persian Cuneiform Characters. 10.5220/0005035401190123. 
+<br>
+<a id="2">[2]</a> 
+Mousavi, Seyed & Lyashenko, Vyacheslav. (2017). Extracting old persian cuneiform font out of noisy images (handwritten or inscription). 241-246. 10.1109/IranianMVIP.2017.8342358. 
+<br>
+<a id="3">[3]</a> 
+Gutherz, Gai & Gordin, Shai & Sáenz, Luis & Levy, Omer & Berant, Jonathan. (2023). Translating Akkadian to English with neural machine translation. PNAS Nexus. 2. 10.1093/pnasnexus/pgad096. 
 
 ## ✍️ Authors <a name = "authors"></a>
 - [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
