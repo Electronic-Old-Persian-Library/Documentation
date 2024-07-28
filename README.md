@@ -19,15 +19,12 @@
 </p>
 
 ## 📝 Table of Contents
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
+- [Abstract](#abstract)
+- [Introduction](#introduction)
+- [Previous Research](#previousResearch)
+- [Developing Models](#developingModels)
+
+
 
 ## Abstract  <a name = "abstract"></a>
 In this project, I developed an optical character recognition (OCR) model to decipher Old Persian language to modern languages. The process of converting an image text to machine-readable text is called OCR. To the best of my knowledge, I am the first one who is developing this language in this scale in the world. The primary raw data is collected from all over the world. For instance, the British museum collection, cuneiform digital library Initiative (CDLI), Livius and my personal photography from the national museum of Iran and Takht-e-Jamshid (Persepolis). I have trained my data with some OCR models, the best one is based on the EasyOCR model.
@@ -35,10 +32,10 @@ In this project, I developed an optical character recognition (OCR) model to dec
 ## Introduction <a name = "introduction"></a>
 Saving the history of my country, Iran, is a very important and valuable issue that we have to care about. The history that we have nowadays is our ancestor’s heritage that we must transfer to the next generations. In this regard, deciphering ancient cuneiforms has been one of the difficult challenges during the span of time to figure out how our ancestors could live in this world. One day, I was thinking, if there is no one in this world who can translate the Old Persian language, what will happen to this language?! How will the next generation decipher new found inscriptions or tablets?! So, this new brainstorm crosses my mind to develop a new AI model to achieve this goal and keep this ancient language alive forever.
 
-## Previous research <a name = "introduction"></a>
+## Previous research <a name = "previousResearch"></a>
 Saving the history of my country, Iran, is a very important and valuable issue that we have to care about. The history that we have nowadays is our ancestor’s heritage that we must transfer to the next generations. In this regard, deciphering ancient cuneiforms has been one of the difficult challenges during the span of time to figure out how our ancestors could live in this world. One day, I was thinking, if there is no one in this world who can translate the Old Persian language, what will happen to this language?! How will the next generation decipher new found inscriptions or tablets?! So, this new brainstorm crosses my mind to develop a new AI model to achieve this goal and keep this ancient language alive forever.
 
-## Developing models
+## Developing models <a name = "developingModels"></a>
 I have developed three OCR models in this project:
 
 - yolo_cnn_old_persian
@@ -86,6 +83,13 @@ In the next step. I translate that Old Persian transcription to modern languages
 >This is me, Dariush king; By the grace of Ahura Mazda, I have built this; I founded this empire and made it strong. May Ahuramazda protect me and my kingdom; may it last forever; and it would be safe from lies; that is what I did;
 That is what I am saying.
 
+### Results for `easyocr_old_persian` model:
+![alt text](https://miro.medium.com/v2/resize:fit:640/format:webp/1*9cHKJkL3o4Bwhqa5_I0MHw.png)
+![alt text](https://miro.medium.com/v2/resize:fit:640/format:webp/1*9cHKJkL3o4Bwhqa5_I0MHw.png)
+
+All my models have been developed on Google Colab notebook infrastructure:
+![alt text](https://miro.medium.com/v2/resize:fit:640/format:webp/1*9cHKJkL3o4Bwhqa5_I0MHw.png)
+
 ## Future work
 - Developing pre-processing for the raw image dataset
 
@@ -120,8 +124,8 @@ Mousavi, Seyed & Lyashenko, Vyacheslav. (2017). Extracting old persian cuneiform
 Gutherz, Gai & Gordin, Shai & Sáenz, Luis & Levy, Omer & Berant, Jonathan. (2023). Translating Akkadian to English with neural machine translation. PNAS Nexus. 2. 10.1093/pnasnexus/pgad096. 
 
 ## ✍️ Authors <a name = "authors"></a>
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+- [@Melanee](https://github.com/Melanee-Melanee) - Idea & Initial work
+See also the list of [contributors](https://github.com/orgs/Electronic-Old-Persian-Library/people) who participated in this project.
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
