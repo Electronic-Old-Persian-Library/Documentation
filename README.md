@@ -90,8 +90,8 @@ In the next step. I translate that Old Persian transcription to modern languages
 That is what I am saying.
 
 ### Results for `easyocr_old_persian` model:
-![alt text](https://miro.medium.com/v2/resize:fit:640/format:webp/1*9cHKJkL3o4Bwhqa5_I0MHw.png)
-![alt text](https://miro.medium.com/v2/resize:fit:640/format:webp/1*9cHKJkL3o4Bwhqa5_I0MHw.png)
+![alt text](https://miro.medium.com/v2/resize:fit:640/format:webp/1*TbEKktzAdkmgPUo4EKYNzw.png)
+![alt text](https://miro.medium.com/v2/resize:fit:720/format:webp/1*58xk4LtiP0qz6HCjuGzF1Q.png)
 
 All my models have been developed on Google Colab notebook infrastructure:
 ![alt text](https://miro.medium.com/v2/resize:fit:640/format:webp/1*9cHKJkL3o4Bwhqa5_I0MHw.png)
