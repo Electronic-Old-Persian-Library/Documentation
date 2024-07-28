@@ -23,6 +23,12 @@
 - [Introduction](#introduction)
 - [Previous Research](#previousResearch)
 - [Developing Models](#developingModels)
+- [Results and discussion](#ResultsAndDiscussion)
+- [Future work](#futureWork)
+- [Conclusion](#conclusion)
+- [🚀 Deployment](#deployment)
+- [Authors](#authors)
+- [Acknowledgements](#acknowledgements)
 
 
 
@@ -50,7 +56,7 @@ The “tessearct_old_persian” model is a pre-trained model and developed by S.
 
 The “yolo_cnn_old_persian” model is not completed yet.
 
-## Results and discussion
+## Results and discussion <a name = "ResultsAndDiscussion"></a>
 ### Input:
 ![alt text](https://miro.medium.com/v2/resize:fit:786/format:webp/1*ORJ4H_KcJnDjO90psa8qrg.png)
 
@@ -90,18 +96,18 @@ That is what I am saying.
 All my models have been developed on Google Colab notebook infrastructure:
 ![alt text](https://miro.medium.com/v2/resize:fit:640/format:webp/1*9cHKJkL3o4Bwhqa5_I0MHw.png)
 
-## Future work
+## Future work <a name = "futureWork"></a>
 - Developing pre-processing for the raw image dataset
 
 - Training “easyocr_old_persian” model with huge images
 
 - Developing NLP models to translate English transcriptions to modern Persian
   
-## Conclusion
+## Conclusion <a name = "conclusion"></a>
 Acquired results of the evaluation indicate that my models will be able to properly translate Old Persian cuneiform. The acquired results are promising that they are able to make and improve NLP in this area.
 
 
-## 🚀 Deployment
+## 🚀 Deployment <a name = "deployment"></a>
 ```bash
 !pip install pytesseract
 !apt-get install tesseract-ocr
@@ -113,7 +119,7 @@ img = Image.open(img_path)
 text = pytesseract.image_to_string(img, lang=’myLang’)
 print(text)
 ```
-## References
+## References <a name = "references"></a>
 <a id="1">[1]</a> 
 Mostofi, Fahimeh. (2014). Intelligent Recognition of Ancient Persian Cuneiform Characters. 10.5220/0005035401190123. 
 <br>
@@ -127,5 +133,5 @@ Gutherz, Gai & Gordin, Shai & Sáenz, Luis & Levy, Omer & Berant, Jonathan. (202
 - [@Melanee](https://github.com/Melanee-Melanee) - Idea & Initial work
 See also the list of [contributors](https://github.com/orgs/Electronic-Old-Persian-Library/people) who participated in this project.
 
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+## 🎉 Acknowledgements <a name = "acknowledgements"></a>
 
