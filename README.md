@@ -1,3 +1,3 @@
 # Documentation
 
-https://medium.com/@melanee-melanee/matching-and-translating-persian-old-cuneiform-inscriptions-by-ai-89cc431ba0be
+https://www.researchgate.net/publication/382528886_Translating_Old_Persian_cuneiform_by_artificial_intelligence_AI
